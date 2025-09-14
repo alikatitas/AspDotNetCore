@@ -1,9 +1,12 @@
-
 @model List<Product>
 
-@section Footer{
+@section Footer {
     <div>there is a footer area</div>
 }
-            @foreach(Product item in Model){
-                    <partial name="_ProductCard" model="@item"></partial>
-                } 
+
+<div class="row my-3">
+@foreach (Product item in Model)
+{
+    <partial name="_ProductCard" model="@item"></partial>
+}
+</div>
