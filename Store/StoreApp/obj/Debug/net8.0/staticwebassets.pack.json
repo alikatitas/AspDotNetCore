@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\html\\Error.html"
     },
     {
+      "Id": "C:\\Users\\alika\\OneDrive\\Desktop\\Tutorials\\CSharp\\AspDotNetCore\\Store\\StoreApp\\wwwroot\\images\\no-image.jpg",
+      "PackagePath": "staticwebassets\\images\\no-image.jpg"
+    },
+    {
       "Id": "C:\\Users\\alika\\OneDrive\\Desktop\\Tutorials\\CSharp\\AspDotNetCore\\Store\\StoreApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

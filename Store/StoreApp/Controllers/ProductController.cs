@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SQLitePCL;
-using StoreApp.Models;
+using Entities.Models;
+using Repositories;
 
 namespace StoreApp.Controllers
 {
