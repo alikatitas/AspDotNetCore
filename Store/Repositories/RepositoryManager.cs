@@ -4,7 +4,7 @@ namespace Repositories
 {
     public class RepositoryManager : IRepositoryManager
     {
-        private readonly RepositoryContext _context
+        private readonly RepositoryContext _context;
         private readonly IProductRepository _productRepository;
 
         public RepositoryManager(IProductRepository productRepository, RepositoryContext context)
