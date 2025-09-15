@@ -10,7 +10,7 @@ using Repositories;
 namespace StoreApp.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20250914200542_startPoint")]
+    [Migration("20250915142944_startPoint")]
     partial class startPoint
     {
         /// <inheritdoc />
