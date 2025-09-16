@@ -24,8 +24,8 @@ namespace StoreApp.Controllers
 
         public IActionResult Get(int id)
         {
-            //Inversion of Control
-            throw new NotImplementedException();
+            var model = _manager.Product.GetOneProduct(id,false);
+            return View(model);
         }
 
     }

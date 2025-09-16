@@ -16,6 +16,8 @@ namespace Repositories
 
         public IProductRepository Product => _productRepository;
 
+        public ICategoryRepository Category => throw new NotImplementedException();
+
         public void Save()
         {
             _context.SaveChanges();
